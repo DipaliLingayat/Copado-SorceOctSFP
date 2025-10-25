@@ -2,10 +2,11 @@
 private class AccountHandlerTest {
     @IsTest
     static void testAddPrefixToName() {
-        Account a = new Account(Name = 'Test');
+        // Changed initial name and assertion
+        Account a = new Account(Name = 'Demo');
         insert a;
 
         a = [SELECT Name FROM Account WHERE Id = :a.Id];
-        System.assertEquals(true, a.Name.startsWith('ACC-'));
+        System.assertEquals(true, a.Name.startsWith('ACCT-'));
     }
 }
