@@ -3167,10 +3167,6 @@
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Idea-Idea Layout</layout>
-        <recordType>Idea.Record_type_for_community_09ai0000000TOLlAAO_entity_Idea</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Individual-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4026,16 +4022,6 @@
         <recordType>Account.business_acc</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Idea.Record_type_for_community_09ai0000000TOLlAAO_entity_Idea</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Getting_Started</tab>
         <visibility>DefaultOff</visibility>
@@ -4451,10 +4437,6 @@
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AccessOrchestrationObjects</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
@@ -4620,10 +4602,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>UserInteractionInsights</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
